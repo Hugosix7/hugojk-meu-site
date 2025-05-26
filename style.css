@@ -26,6 +26,7 @@ nav a:hover {
 
 .container {
   background-color: #f9f9f9;
+  flex: 1;
   margin: 20px;
   padding: 20px;
   border-radius: 8px;
@@ -40,8 +41,9 @@ footer {
   height: 150px;
   object-fit: over;
   border-radius: 50%;
-  border: 3px solid white;
-  margin-top: 10px;
+  cursor: pointer;
+  border: 3px solid rgb(255, 255, 255);
+  margin-top: 50px;
 }
 
 .marketplace-container {
